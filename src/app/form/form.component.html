@@ -4,12 +4,12 @@
         <div class="form-group">
             <label for="first-name">Nombres</label>
             <input type="text" class="form-control" placeholder="Nombres" name="nombres" id="nombres" formControlName="nombres">
-            <p *ngIf="f.nombres.errors.required">El nombre es requerido</p>
+            <p *ngIf="f.nombres.errors?.required">El nombre es requerido</p>
         </div>
         <div class="form-group">
             <label for="last-name">Apellidos</label>
             <input type="text" class="form-control" placeholder="Apellidos" name="apellidos" id="apellidos" formControlName="apellidos">
-            <p *ngIf="f.apellidos.errors.required">El apellido es requerido</p>
+            <p *ngIf="f.apellidos.errors?.required">El apellido es requerido</p>
         </div>
         <div class="form-group">
             <label for="country">Ciudad</label>
