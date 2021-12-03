@@ -1,0 +1,37 @@
+<div class="container" id="advanced-search-form">
+    <h2>Registrar Usuario</h2>
+    <form (ngSubmit)="onSubmit()" [formGroup]="model">
+        <div class="form-group">
+            <label for="first-name">Nombres</label>
+            <input type="text" class="form-control" placeholder="Nombres" name="nombres" id="nombres" formControlName="nombres">
+            <p *ngIf="f.nombres.errors.required">El nombre es requerido</p>
+        </div>
+        <div class="form-group">
+            <label for="last-name">Apellidos</label>
+            <input type="text" class="form-control" placeholder="Apellidos" name="apellidos" id="apellidos" formControlName="apellidos">
+            <p *ngIf="f.apellidos.errors.required">El apellido es requerido</p>
+        </div>
+        <div class="form-group">
+            <label for="country">Ciudad</label>
+            <input type="text" class="form-control" placeholder="Ciudad" name="ciudad"  formControlName="ciudad">
+        </div>
+        <div class="form-group">
+            <label for="number">Celular</label>
+            <input type="text" class="form-control" placeholder="Celular" name="celular"  formControlName="celular">
+        </div>
+        <div class="form-group">
+            <label for="age">Edad</label>
+            <input type="text" class="form-control" placeholder="Edad" name="edad"  formControlName="edad">
+        </div>
+        <div class="form-group">
+            <label for="email">Correo</label>
+            <input type="email" class="form-control" placeholder="Correo" name="correo"  formControlName="correo">
+        </div>
+        <div class="form-group">
+            <label for="education">Nivel Educación</label>
+            <input type="text" class="form-control" placeholder="Educacion" name="educacion"  formControlName="educacion">
+        </div>
+        <div class="clearfix"></div>
+        <button type="submit" class="btn btn-info btn-lg btn-responsive" id="search"> <span class="glyphicon glyphicon-search"></span> Registrar</button>
+    </form>
+</div>

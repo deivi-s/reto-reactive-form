@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "reto"
+  "defaultProject": "reto",
+  "cli": {
+    "analytics": false
+  }
 }
