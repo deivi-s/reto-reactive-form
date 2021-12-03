@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
+import Swal from 'sweetalert2';
 
 interface Formulario {
   nombres: string;
@@ -43,6 +44,6 @@ export class FormComponent implements OnInit {
   }
 
   onSubmit() {
-
+    Swal.fire('Registro exitoso...', '', 'success')
   }
 }
