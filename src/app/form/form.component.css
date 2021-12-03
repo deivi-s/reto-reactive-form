@@ -8,7 +8,7 @@ body {
     background: none;
 }
 
-#advanced-search-form {
+#form-registro {
     background-color: #fff;
     max-width: 800px;
     margin: 160px auto 0;
@@ -17,13 +17,13 @@ body {
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
 }
 
-#advanced-search-form h2 {
+#form-registro h2 {
     padding-bottom: 20px;
     margin: 10px 20px;
     font-size: 24px;
 }
 
-#advanced-search-form hr {
+#form-registro hr {
     margin-top: 38px;
     margin-bottom: 54px;
     margin-left: 3px;
@@ -31,7 +31,7 @@ body {
 
 }
 
-#advanced-search-form .form-group {
+#form-registro .form-group {
     margin-bottom: 20px;
     margin-left: 20px;
     width: 30%;
@@ -39,18 +39,18 @@ body {
     text-align: left;
 }
 
-#advanced-search-form .form-control {
+#form-registro .form-control {
     padding: 12px 20px;
     height: auto;
     border-radius: 2px;
 }
 
-#advanced-search-form .radio-inline {
+#form-registro .radio-inline {
     margin-left: 10px;
     margin-right: 10px;
 }
 
-#advanced-search-form .gender {
+#form-registro .gender {
     width: 30%;
     margin-top: 30px;
     padding-left: 20px ;
@@ -58,7 +58,7 @@ body {
     padding-bottom: 5px;
 }
 
-#advanced-search-form .btn {
+#form-registro .btn {
     width: 46%;
     margin: 20px auto 0;
     display: block;
@@ -66,22 +66,22 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-    #advanced-search-form .form-group {
+    #form-registro .form-group {
         width: 45%;
     }
 
-    #advanced-search-form {
+    #form-registro {
         margin-top: 0;
     }
 }
 
 @media screen and (max-width: 560px) {
-    #advanced-search-form .form-group {
+    #form-registro .form-group {
         width: 100%;
         margin-left: 0;
     }
 
-    #advanced-search-form h2 {
+    #form-registro h2 {
         text-align: center;
     }
 }
